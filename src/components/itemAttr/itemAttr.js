@@ -8,7 +8,7 @@ import classes from "./itemAttr.module.css";
 
 const ItemAttr = ({ productId, item, sizeLabel }) => {
   const { cart, dispatch } = useContext(AppContext);
-  const [buttons] = useState(sizeLabel ? ["XS", "S", "M", "L"] : ["S", "M"]);
+  const [buttons] = useState(["XS", "S", "M", "L"]);
 
   let content = null;
 
