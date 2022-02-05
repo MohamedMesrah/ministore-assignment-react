@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+}
+
+.cart {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.cart img {
+    min-width: 100%;
+}
+
+.cart img:hover {
+    opacity: 0.9;
+}
+
+.count {
+    position: absolute;
+    right: -35%;
+    top: 20%;
+    text-align: center;
+    font-size: 50%;
+    padding: 0.6em;
+    line-height: 0.75em;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+  }

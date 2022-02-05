@@ -1,0 +1,8 @@
+.item-attr {
+    display: flex;
+    height: 100%;
+}
+
+.btns button {
+    margin-right: 10px;
+}

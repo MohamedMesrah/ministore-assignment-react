@@ -1,0 +1,20 @@
+.input {
+    padding: 8px 12px;
+    margin: 8px;
+}
+
+.input[type=text] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.small {
+    width: 110px;
+}
+
+.color {
+    width: 50px;
+    margin: 0 10px;
+    padding: 0;
+    border: none;
+}

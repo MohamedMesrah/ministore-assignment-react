@@ -1,0 +1,13 @@
+.out-of-stock {
+    width: 100%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0;
+    color: #8D8F9A;
+}
+.out-of-stock span {
+    position: relative;
+    top: 50%;
+    left: 20%;
+}

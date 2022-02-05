@@ -1,0 +1,22 @@
+.gallery {
+    position: relative;
+}
+
+.left-arrow, .right-arrow {
+    position: absolute;
+    top: 33%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+    opacity: 0.5;
+}

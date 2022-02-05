@@ -1,0 +1,28 @@
+.cart-overlay {
+    position: absolute;
+    width: 400px;
+    max-height: 500px;
+    top: 100%;
+    right: 10%;
+    padding: 20px;
+    min-width: 100px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.bag-count {
+    margin-bottom: 40px;
+}
+
+.bag-items {
+    margin: 20px 0;
+}
+
+.btns, .total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    margin: 40px 0;
+}

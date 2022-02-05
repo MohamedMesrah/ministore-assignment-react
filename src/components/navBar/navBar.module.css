@@ -1,0 +1,25 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    background-color: #fff;
+}
+
+.nav-bar nav {
+    width: 10%;
+}
+
+.link {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    min-width: 100px;
+}
