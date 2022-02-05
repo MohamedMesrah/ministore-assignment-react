@@ -46,7 +46,11 @@ const DescriptionPage = () => {
         <div className={classes.name}>{product.name}</div>
         <div className={classes.attrs}>
           {(product.attributes.length && (
-            <ItemAttrSet attributes={product.attributes} sizeLabel="true" />
+            <ItemAttrSet
+              productId={product.id}
+              attributes={product.attributes}
+              sizeLabel="true"
+            />
           )) ||
             null}
         </div>
