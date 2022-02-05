@@ -5,6 +5,7 @@
 ###### `create-react-app`
 ###### `functional components` `(hooks)`
 ###### Contexts for state management
+###### Css modules
 ###### Code style `(eslint - prettier)`
 ###### No UI libraries
 
